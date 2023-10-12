@@ -40,14 +40,11 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow */
 }
 
-.contact-message {
-  font-size: 50px;
-}
 
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 45px;
   color: #5e4c3d;
 }
 
@@ -123,6 +120,17 @@ footer p {
   padding: 40px;
   background-color: #e0d9c8;
 }
+.three-column {
+  display: flex;
+  justify-content: space-between; /* Distribute columns evenly */
+  padding: 20px; /* Add padding to the container for additional space */
+}
+
+.three-column div {
+  flex: 1; /* Make each column take up equal space */
+  margin: 0 10px; /* Add margin to create space between columns */
+  text-align: center; /* Center the text in each column */
+}
 
 .three-column div {
   background-color: #e0d9c8;
@@ -131,7 +139,7 @@ footer p {
 }
 
 .two-column div p {
-  font-size: 24px;  /* Adjust the font size as needed */
+  font-size: 24px;/* Adjust the font size as needed */
   color: #5e4c3d; /* Set the desired text color */
   margin-bottom: 10px; /* Add some spacing between paragraphs */
 }
@@ -145,6 +153,10 @@ footer p {
   font-size: 40px;
   font-weight: bold;
   color: #5e4c3d;
+}
+
+.contact-message {
+  font-size: 40px;
 }
 
 .social-button {
