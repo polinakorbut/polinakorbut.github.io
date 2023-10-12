@@ -32,12 +32,12 @@ body {
 .basketball-picture,
 .reading-picture,
 .hiking-picture {
-  width: 100%; /* Make images responsive */
-  max-width: 500px; /* Set maximum width */
+  width: 100%; 
+  max-width: 500px;
   display: block;
-  margin: 0 auto; /* Center the images */
-  margin-bottom: 20px; /* Add some space between images */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow */
+  margin: 0 auto; 
+  margin-bottom: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 
@@ -83,8 +83,8 @@ li a {
 footer {
   background-color: #5e4c3d;
   padding: 40px;
-  clear: both; /* Add this property to clear floats */
-  text-align: center; /* Center the content horizontally */
+  clear: both; 
+  text-align: center; 
 }
 
 footer p {
@@ -111,8 +111,8 @@ footer p {
 }
 
 .two-column div p {
-  font-size: 15px; /* Adjust the font size to your preference */
-  line-height: 1.5; /* Adjust the line height for better readability if needed */
+  font-size: 15px;
+  line-height: 1.5; 
 }
 .three-column {
   display: grid;
@@ -122,14 +122,14 @@ footer p {
 }
 .three-column {
   display: flex;
-  justify-content: space-between; /* Distribute columns evenly */
-  padding: 20px; /* Add padding to the container for additional space */
+  justify-content: space-between; 
+  padding: 20px; 
 }
 
 .three-column div {
-  flex: 1; /* Make each column take up equal space */
-  margin: 0 10px; /* Add margin to create space between columns */
-  text-align: center; /* Center the text in each column */
+  flex: 1; 
+  margin: 0 10px; 
+  text-align: center; 
 }
 
 .three-column div {
@@ -139,15 +139,15 @@ footer p {
 }
 
 .two-column div p {
-  font-size: 24px;/* Adjust the font size as needed */
-  color: #5e4c3d; /* Set the desired text color */
-  margin-bottom: 10px; /* Add some spacing between paragraphs */
+  font-size: 24px;
+  color: #5e4c3d; 
+  margin-bottom: 10px; 
 }
 
 .three-column div p {
-  font-size: 24px;  /* Adjust the font size as needed */
-  color: #5e4c3d; /* Set the desired text color */
-  margin-bottom: 10px; /* Add some spacing between paragraphs */
+  font-size: 24px;  
+  color: #5e4c3d; 
+  margin-bottom: 10px; 
 }
 .follow-text {
   font-size: 40px;
